@@ -1,0 +1,64 @@
+
+*{
+    box-sizing:border-box;
+}
+/*
+    body {
+    background: radial-gradient(red 10px, orange 2px, yellow, #00FF00, rgb(0,0,255), indigo, violet);
+
+    /*background: radial-gradient(red, blue);
+    background: linear-gradient(to top right, red, orange, yellow, green, blue, indigo, violet);*/
+}
+
+*/
+
+
+/*
+    header {
+    background-color: rgba(165,42,42,0.5);
+}
+
+*/
+
+
+.posterDesign {
+    font-family: 'Oswald', sans-serif;
+    margin: auto;
+    margin-top:100px;
+    width: calc(200% /7);
+    background-color: rgba(165,42,42,0.5);
+    border-radius: 3%;
+    text-align: center;
+    box-shadow: 20px 20px 10px 2px yellow;
+}
+
+
+
+.posterDesign img {
+    padding:5%;
+    background-color:khaki;
+    /*border-radius:1cm;*/
+    border-top-left-radius: 5%;
+    border-bottom-left-radius: 1%;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 1%;
+
+}
+
+    .posterDesign img:hover {
+        opacity: 0.6;
+        background-color: greenyellow;
+    }
+
+h1 {
+    text-shadow: 3px 2px 2px black;
+    font-size: 3vw;
+}
+
+h2 {
+    text-shadow: black 3px 2px 2px;
+    font-size: 2vw;
+}
+h4{
+    font-size:1vw;
+}
